@@ -60,12 +60,6 @@
     <Compile Include="Plot.Designer.cs">
       <DependentUpon>Plot.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeaderPanel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="HeaderPanel.Designer.cs">
-      <DependentUpon>HeaderPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="State.cs" />
     <Compile Include="Panel.cs">
       <SubType>UserControl</SubType>
@@ -85,9 +79,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Plot.resx">
       <DependentUpon>Plot.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HeaderPanel.resx">
-      <DependentUpon>HeaderPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel.resx">
       <DependentUpon>Panel.cs</DependentUpon>

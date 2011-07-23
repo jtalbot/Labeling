@@ -39,7 +39,7 @@ namespace Language
             }
         }
 
-        Numeric variable;
+        Numeric variable = null;
         public Numeric Original { get { return variable; } }
         
         Transformation type;

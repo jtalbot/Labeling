@@ -47,15 +47,9 @@ namespace Interface
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             g.FillRectangle(new SolidBrush(Color.White), this.ClientRectangle);
 
-            try
-            {
-                if (Layers.Count() > 0)
-                    Layers.First().Draw(g, this.ClientRectangle);
-            }
-            catch (Exception exception)
-            {
-            }
-
+            if (Layers.Count() > 0)
+                Layers.First().Draw(g, this.ClientRectangle);
+            
             /*foreach (Layer layer in Layers)
             {
                 try

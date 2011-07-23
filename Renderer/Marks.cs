@@ -91,7 +91,6 @@ namespace Renderer
         public virtual RectangleF bounds(Transform transform)
         {
             throw new NotImplementedException();
-            return RectangleF.Empty;
         }
 
 
